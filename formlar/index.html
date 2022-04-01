@@ -37,9 +37,43 @@ id esitlendiginde label ile  input u  birbirine baglamıs oluruz-->
 </p>
 
 <p>
-    <input type="button" value="Gönder"/>
+    <label for="hobıler">Hobileriniz</label><br><br>
+    
+    <input type="checkbox" id="basketbol" name="basketbol" value="basketbol" ><label for="basketbol">Basketbol</label><br>
+  
+    <input type="checkbox" id="futbool" name="futbool" value="futbool" >  <label for="futbool">Futbool</label><br>
+    
+    <input type="checkbox" id="voleybol" name="voleybol" value="voleybol" ><label for="voleybol">Voleybol</label><br>
+</p>
+<!--name ve value ları backende veri göndermek için kullanıyoruz-->
+<p>
+    <label for="cinsiyet">Cinsiyet</label><br>
+    <input type="radio" name="kız" id="kız" value="kız"/>
+    <label for="kız">Bayan</label><br>
+    <input type="radio"  name="erkek" id="erkek" value="erkek" />
+    <label for="erkek">Erkek</label><br>
+
+</p>
+
+<p>
+    <label for="medenıhal">Medenı Hali</label><br>
+    <input type="radio" id="e"   name="e" value="e"/>  <label for="e">Evli</label><br>
+    <input type="radio" id="k"   name="k" value="k"/> <label for="k">Bekar</label><br>
+
+
+</p>
+<p>
+    <label for="avatar">Avatar</label>
+    <input type="file" name="avatar" id="avatar"><br>
+</p>
+
+<p>
+    <input type="submit" value="Gönder"/>
     <input type="reset"   value="sil"/>
+    <input type="button" value="Kontrol Et" disabled/>
+    <!--button un kabiliyetini java script ile belirleriz, tek basına hiç birsey kontrol etemz-->
     <!--submit ile button un farkı: submıt gönderilen sayfayı tarayıcının üst kısmında gösterir-->
+<!--disabled: aktifliği sonlandırır-->
 </p>
 </form>
 </body>
