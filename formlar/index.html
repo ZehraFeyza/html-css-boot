@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formlar</title>
+</head>
+<body>
+    <h1>Kayıt Formu</h1>
+
+    <form action="server/kayit.js" method="post">
+        <!--method: default degeri get tir,formdakı bılgılerın gonderme biçimini belirleyen atribute dur ,
+        post kullanılır genelde , bilgileri trayıcıda kullanıcıya göstermeden gönderilmesini saglar -->
+        <!-- action , kullanıcı bilgileri  doldurduktan sonra bu formdakı bilgileri sunucuya gönderme yolu dur-->
+<input type="hidden" name="id" value="123456"/>
+<!-- hidden ,id yi kullanıcının görmememsi için kullanılır -->
+
+
+        <p>
+ <label for="ad">Adınız</label>
+<input id="ad" name="ad"   type="text" placeholder="Adınızı Giriniz"/>
+</p>
+<!--name atribut u data yı server a göndermek içindir-->
+<!--id,for  bütün htm elemanlarının ortak atribute dur, for ıle 
+id esitlendiginde label ile  input u  birbirine baglamıs oluruz-->
+<p><label for="soyad">Soyadınız</label>
+<input id="soyad" type="text" placeholder="Soyadınızı Giriniz"/>
+</p>
+<p>
+    <label for="sifre">Sifreniz</label>
+    <input id="sifre" type="password"/>
+</p>
+<p>
+    <label for="deneyım">Deneyim</label>
+    <input id="deneyim" type="number"/>
+</p>
+
+<p>
+    <input type="button" value="Gönder"/>
+    <input type="reset"   value="sil"/>
+    <!--submit ile button un farkı: submıt gönderilen sayfayı tarayıcının üst kısmında gösterir-->
+</p>
+</form>
+</body>
+</html>
