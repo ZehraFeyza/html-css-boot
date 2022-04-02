@@ -19,7 +19,12 @@
 
         <p>
  <label for="ad">Adınız</label>
-<input id="ad" name="ad"   type="text" placeholder="Adınızı Giriniz"/>
+<input id="ad" name="ad"   type="text" required  placeholder="Adınızı Giriniz" minlength="2"/>
+<!--requred:gerekli,zorunlu==>tarayıcının default zorunluluk durumlarındakı mesajını verır-->
+<!--minlenght:minumum karakter sayısını kontrol eder
+maxlenght: maksimum karkter sayısını kontrol eder
+
+-->
 </p>
 <!--name atribut u data yı server a göndermek içindir-->
 <!--id,for  bütün htm elemanlarının ortak atribute dur, for ıle 
@@ -29,11 +34,13 @@ id esitlendiginde label ile  input u  birbirine baglamıs oluruz-->
 </p>
 <p>
     <label for="sifre">Sifreniz</label>
-    <input id="sifre" type="password"/>
+    <input id="sifre" type="password" minlength="6"/>
 </p>
 <p>
     <label for="deneyım">Deneyim</label>
-    <input id="deneyim" type="number"/>
+    <input id="deneyim" type="number" min="0" max="10"/>
+    <!--min: number olarak  karakter sayısınıkontrol eder
+max:number olarak  karakter sayısınıkontrol eder-->
 </p>
 
 <p>
@@ -65,6 +72,30 @@ id esitlendiginde label ile  input u  birbirine baglamıs oluruz-->
 <p>
     <label for="avatar">Avatar</label>
     <input type="file" name="avatar" id="avatar"><br>
+</p>
+
+
+
+<p>
+    <label for="tarih">Dogum Tarihi</label>
+    <input type="date" name="dogum" id="tarih">
+    <input type="time" name="saat" id="tarih">
+</p>
+
+<p>
+    <label for="dogum_yeri">Dogum Yeri</label>
+    <select name="dogum" id="dogum_yeri" size="4" multiple>
+        <!--multiple: birden fazla secenegi secmemize olanak tanır
+        size : seceneklerı kaclık bır sekılde gösterecegimiz miktarını ayarlar-->
+        <option value="1">Adana</option>
+        <option value="2">Adıyaman</option>
+        <option value="3">Ankara</option>
+        <option value="4">Agrı</option>
+    </select>
+</p>
+<p>
+    <label for="adres">Adres</label><br>
+    <textarea name="adres" id="adres" cols="30" rows="10"></textarea>
 </p>
 
 <p>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+    <style>
+        .ilk-sutun{
+            width: 50%;
+        }
+
+        .bosluk{
+            width: 50%;
+        }
+        .dördüncü-sutun{
+            text-align: left;
+        }
+    </style>
+
+    
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="ilk-sutun">Adı</td>
+            
+            <td> <input type="text" minlength="2" maxlength="10" placeholder="Adınızı Giriniz"> </td>
+
+            <td class="bosluk"></td>
+            <td  class="dördüncü-sutun">Hobiler</td>
+            <td class="bosluk"></td>
+              
+            <td rowspan="2">
+               <input type="checkbox" id="footbol"/> <label for="footbol">Futbol</label> <br>
+               <input type="checkbox" id="basketbol"/> <label for="basketbol">Basketbol</label><br>
+                <input type="checkbox" id="voleybool"/> <label for="voleybool">Voleybool</label></td>
+        </tr>
+        <tr>
+            <td class="ilk-sutun">Soyadı</td>
+           
+            <td> <input type="text" placeholder="Soyadınızı gırınız" minlength="2" maxlength="15">  </td>
+
+            <td class="bosluk"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="ilk-sutun">Cinsiyet</td>
+            
+            <td><input type="radio" id="bay"><label for="bay">Bay</label> <input type="radio" id="bayan"><label for="bayan">Bayan</label> </td>
+
+            <td class="bosluk"></td>
+            <td  class="dördüncü-sutun">Profil Fotografı</td>
+            <td class="bosluk"></td>
+            <td> <input type="file" value="Browse" name="Browse"> </td>
+        </tr>
+        <tr>
+            <td class="ilk-sutun">İlçe</td>
+            <td> <select name="ilce" id="ilce">
+                <option>Seyhan</option>
+                <option>Cukurova</option>
+                <option>Ceyhan</option>
+                <option>Yumurtalık</option>
+            </select> </td>
+            <td  class="bosluk"></td>
+            <td  class="dördüncü-sutun">Dogum Tarihi</td>
+            <td class="bosluk"></td>
+            <td> <input type="date"> </td>
+            
+        </tr>
+        <tr>
+            <td class="ilk-sutun">Eposta</td>
+            <td><input type="text" placeholder="epostanızı giriniz"></td>
+            <td class="bosluk"></td>
+            <td  class="dördüncü-sutun">Adres</td>
+            <td class="bosluk"></td>
+            <td colspan="2"> <textarea name="adres" id="adres" cols="30" rows="10"></textarea> </td>
+            
+        </tr>
+        <tr>
+            <td class="ilk-sutun">Kişisel Site</td>
+            <td> <input type="text">  </td>
+            <td class="bosluk"></td>
+            <td class="bosluk"></td>
+            <td rowspan="2"><input type="submit" id="kaydol" value="Kaydol"> </td>
+        </tr>
+        <tr>
+            <td class="ilk-sutun">Telefon</td>
+            <td> <input type="number" placeholder="(000)-(000)-(000)"  > </td>
+            <td class="bosluk"></td>
+          
+        </tr>
+    </table>
+</body>
+</html>
