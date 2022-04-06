@@ -1,0 +1,11 @@
+.kutu1{
+    background-color: blueviolet;
+    padding: 15px;/*nesnenin  içten (alttan ,üstten ,sagdan soldan )uzaklık vermiş olduk*/
+    margin: 30px 40px 20px 30px;/*nesnesnin dıstan  ayrımını yapar, birdern fazla deger 
+    kullandıgımkızdan  saat yönünden  degerler verir*/
+}
+
+.kutu2{
+    background-color: chartreuse;
+    padding: 30px;
+}
