@@ -1,0 +1,20 @@
+.menü li{
+    display: inline-block;/*listenın altalta gelme özelliğini durdurur*/
+
+}
+
+.menü a{
+    text-decoration: none;/*Alt çizgileri kaldırdı*/
+    background-color: rgb(255,173,143);
+    color: black;
+    padding: 10px 20px;/* 10 uztten alttan 20 sagdan soldan*/
+border-radius:10px;/* cercevesını ovallestirdik*/
+}
+
+.menü ul{
+    list-style: none;/* liste basındakı iconları yok ettik*/
+}
+.menü a:hover{
+    background-color: rgb(red, green, blue);
+    color: white;
+}
