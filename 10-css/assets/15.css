@@ -1,0 +1,19 @@
+.textbox{
+    border: 1px solid red;
+    display: inline-block;/* display inlineblock oldugunda div kendi  default özelliğini durdurur
+    ve  icerisindeki nesnenin büyüklüğü kadar yer kaplar*/
+    position: relative;/* search ıkonunu  body ye degılde textbox parentının içinde
+     sınırlandırmak için belirlemiş olduk
+    */
+}
+.textbox .fa-search{
+    position: absolute;/*bir elemanı absolite yaparsanız parentını da relative yapmalısınız*/
+right: 5px;
+top:2px;
+}
+
+.textbox input{
+    padding-right: 30px;
+    border: 1px solid red;
+    border-radius: 20px;
+}
