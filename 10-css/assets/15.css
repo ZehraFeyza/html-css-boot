@@ -4,10 +4,13 @@
     ve  icerisindeki nesnenin büyüklüğü kadar yer kaplar*/
     position: relative;/* search ıkonunu  body ye degılde textbox parentının içinde
      sınırlandırmak için belirlemiş olduk
-    */
+    relative  verilmezse parentını body olarak kabul eder*/
 }
 .textbox .fa-search{
-    position: absolute;/*bir elemanı absolite yaparsanız parentını da relative yapmalısınız*/
+    position: absolute;/*bir elemanı 
+    absolite yaparsanız 
+    içinde bulundugu elemanın sınırlarını belirler 
+    parentını da relative yapmalısınız*/
 right: 5px;
 top:2px;
 }

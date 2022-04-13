@@ -1,0 +1,42 @@
+.kutu{
+    width: 50px;
+    
+    background-color: hotpink;
+    border: 1px solid blue;
+    
+}
+
+/*FLEX:display 'i flex olan  bir element   childleri yanyana getirir
+flex-direction: Bu dizilimin yönü belirlenir row olursa yanyana
+column olursa alt alta  gösterilir,Default degeri :row dur
+flex-wrap:wrap  sıgmayayan elemanları asağı kaydırır, default değeri no wrapp dir */
+.kutular{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: aqua;
+    height: 300px;
+}
+
+/*justify-content:   Flex içindeki elemanları yatayda hizalamak için kullanılır 
+align-items: flex içindeki elemanları  dikeyde hizalamak için kullanılır,
+align-items :stretch Taşıyıcı yüksekliğine sığdırır
+align-items:flex-start Üstte hizalar
+align-items:flex-end alta hizalar
+*/
+
+.kutu1{
+    flex: 1;
+}
+
+.kutu2{
+    flex: 2;
+
+}
+.kutu3{
+    flex: 3;
+}
+.kutu4{
+    flex:4;
+}

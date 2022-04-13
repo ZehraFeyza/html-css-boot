@@ -1,0 +1,29 @@
+.yazi{
+    font-size: 35px;
+    color: greenyellow;
+    font-weight: bold;
+    text-shadow: 3px 5px 5px black;
+    /*text-shadow: yazılara gölgeleme işlemi yapar*/
+}
+
+.kutu{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px black;
+    /*
+    box-shadow: elementlere gölge vermek için kullanılır
+     1. deger x eksenı
+    2. deger y eksenı
+    3. deger gölgeleme 
+    */
+    border-radius: 5px;
+}
+.yazi2{
+    font-size: 35px;
+    color: greenyellow;
+    font-weight: bold;
+    text-shadow: 3px 5px 5px black, 2px 3px red;
+
+}

@@ -1,0 +1,27 @@
+/*MEDİA SORGULARI*/
+
+/*COK KÜÇÜK CİHAZLAR
+
+
+ telefomlar => @media (min-width: 576px)
+ 
+ tabletler  => @media (min-width: 768px) 
+ 
+  MasaUstü => @media (min-width: 992px)
+  
+  Masaüstü(Büyük) => @media (min-width: 1200px)
+  
+  Masaüstü(Daha Büyük)  => @media (min-width: 1400px)
+  */
+
+
+
+
+.kutu{
+    font-size: 25px;
+color: red;
+}
+
+.menü{
+    display: none;
+}
