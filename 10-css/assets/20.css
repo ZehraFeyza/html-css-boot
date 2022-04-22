@@ -22,6 +22,18 @@
 color: red;
 }
 
+
+
 .menü{
     display: none;
+}
+
+@media(min-width:768px){
+    .kutu{
+        font-size: 35px;
+        color:blue;
+    }
+    .menü{
+    display: block;
+}
 }
